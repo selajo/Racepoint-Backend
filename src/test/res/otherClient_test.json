@@ -1,0 +1,20 @@
+[
+  {
+    "home": "./clients/aitrivial",
+    "showName": "AI Trivial",
+    "showColour": "#f61400",
+    "fileName": "ai_trivial",
+    "startCommand": "FILE_VAR",
+    "args": "-s HOST_VAR:PORT_VAR ",
+    "clientID" : 1000
+  },
+  {
+    "home": "./clients/aitrivial",
+    "showName": "AI Trivial 2",
+    "showColour": "#f61400",
+    "fileName": "ai_trivial",
+    "startCommand": "FILE_VAR",
+    "args": "-s HOST_VAR:PORT_VAR ",
+    "clientID" : 1001
+  }
+]

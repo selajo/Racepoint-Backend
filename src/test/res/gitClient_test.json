@@ -1,0 +1,37 @@
+[
+  {
+    "home": "./src/test/res/groupTest/",
+    "repoUrl": "https://gitlab.oth-regensburg.de/laj35722/helloworld.git",
+    "checkout": "main",
+    "clean": [],
+    "build": [
+      "mvn clean package"
+    ],
+    "output": "/target/HelloWorld-1.0-SNAPSHOT.jar",
+    "enabled": true,
+    "showName": "Group Test",
+    "fileName": "HelloWorld-1.0-SNAPSHOT.jar",
+    "startCommand": "java -jar FILE_VAR",
+    "args": "-s HOST_VAR -p PORT_VAR",
+    "log": true,
+    "clientID": 13
+  },
+  {
+    "home": "./src/test/res/groupTest/",
+    "repoUrl": "https://gitlab.oth-regensburg.de/laj35722/helloworld.git",
+    "checkout": "main",
+    "clean": [],
+    "build": [
+      "mvn clean package"
+    ],
+    "output": "/target/HelloWorld-1.0-SNAPSHOT.jar",
+    "enabled": true,
+    "showName": "Group Test",
+    "fileName": "HelloWorld-1.0-SNAPSHOT.jar",
+    "startCommand": "java -jar FILE_VAR",
+    "args": "-s HOST_VAR -p PORT_VAR",
+    "log": true,
+    "clientID": 14
+  }
+]
+

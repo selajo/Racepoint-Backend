@@ -1,0 +1,313 @@
+{
+  "port": "8000",
+  "hostname": "localhost",
+  "timeout": "10000",
+  "maxAnzahlSpieler": "2",
+  "AnzahlRomoteSpieler": "0",
+  "AnzahlKISpieler": "0",
+  "SpielerAufServer": "true",
+  "titel": "2D Rennspiel Andre Zimmer",
+  "spiellaenge": "60",
+  "spielmodus": 2,
+  "spielfeld": "src/test/res/map_test.txt",
+  "autoDatenDatei": "/Res/AutoConfig/AutoDaten.json",
+  "abprallen": "2",
+  "KartenTile": [
+    {
+      "nummer": 9,
+      "name": "Strasse_09",
+      "pfad": "/Tiles/Newversion/road00_09.png",
+      "reibung": "1.0",
+      "collision": "false",
+      "ziel": "false"
+    },
+    {
+      "nummer": 10,
+      "name": "Wand_10",
+      "pfad": "/Tiles/Newversion/wall_10.png",
+      "reibung": "1.0",
+      "collision": "true",
+      "ziel": "false"
+    },
+    {
+      "nummer": 11,
+      "name": "Strasse_11",
+      "pfad": "/Tiles/Newversion/road00_11.png",
+      "reibung": "1.0",
+      "collision": "false",
+      "ziel": "false"
+    },
+    {
+      "nummer": 12,
+      "name": "Strasse_12",
+      "pfad": "/Tiles/Newversion/road01_12.png",
+      "reibung": "0.8",
+      "collision": "false",
+      "ziel": "false"
+    },
+    {
+      "nummer": 13,
+      "name": "Strasse_13",
+      "pfad": "/Tiles/Newversion/road02_13.png",
+      "reibung": "0.8",
+      "collision": "false",
+      "ziel": "false"
+    },
+    {
+      "nummer": 14,
+      "name": "Strasse_14",
+      "pfad": "/Tiles/Newversion/road03_14.png",
+      "reibung": "0.8",
+      "collision": "false",
+      "ziel": "false"
+    },
+    {
+      "nummer": 15,
+      "name": "Strasse_15",
+      "pfad": "/Tiles/Newversion/road04_15.png",
+      "reibung": "0.8",
+      "collision": "false",
+      "ziel": "false"
+    },
+    {
+      "nummer": 16,
+      "name": "Strasse_16",
+      "pfad": "/Tiles/Newversion/road05_16.png",
+      "reibung": "0.8",
+      "collision": "false",
+      "ziel": "false"
+    },
+    {
+      "nummer": 17,
+      "name": "Strasse_17",
+      "pfad": "/Tiles/Newversion/road06_17.png",
+      "reibung": "0.8",
+      "collision": "false",
+      "ziel": "false"
+    },
+    {
+      "nummer": 18,
+      "name": "Strasse_18",
+      "pfad": "/Tiles/Newversion/road07_18.png",
+      "reibung": "0.8",
+      "collision": "false",
+      "ziel": "false"
+    },
+    {
+      "nummer": 19,
+      "name": "Strasse_19",
+      "pfad": "/Tiles/Newversion/road08_19.png",
+      "reibung": "0.8",
+      "collision": "false",
+      "ziel": "false"
+    },
+    {
+      "nummer": 20,
+      "name": "Grass_20",
+      "pfad": "/Tiles/Newversion/grass01_20.png",
+      "reibung": "0.3",
+      "collision": "false",
+      "ziel": "false"
+    },
+    {
+      "nummer": 21,
+      "name": "Strasse_21",
+      "pfad": "/Tiles/Newversion/road09_21.png",
+      "reibung": "0.8",
+      "collision": "false",
+      "ziel": "false"
+    },
+    {
+      "nummer": 22,
+      "name": "Strasse_22",
+      "pfad": "/Tiles/Newversion/road10_22.png",
+      "reibung": "0.8",
+      "collision": "false",
+      "ziel": "false"
+    },
+    {
+      "nummer": 23,
+      "name": "Strasse_23",
+      "pfad": "/Tiles/Newversion/road11_23.png",
+      "reibung": "0.8",
+      "collision": "false",
+      "ziel": "false"
+    },
+    {
+      "nummer": 24,
+      "name": "Strasse_24",
+      "pfad": "/Tiles/Newversion/road12_24.png",
+      "reibung": "0.8",
+      "collision": "false",
+      "ziel": "false"
+    },
+    {
+      "nummer": 30,
+      "name": "Wasser_30",
+      "pfad": "/Tiles/Newversion/water01_30.png",
+      "reibung": "1.0",
+      "collision": "true",
+      "ziel": "false"
+    },
+    {
+      "nummer": 31,
+      "name": "Wasser_31",
+      "pfad": "/Tiles/Newversion/water02_31.png",
+      "reibung": "1.0",
+      "collision": "true",
+      "ziel": "false"
+    },
+    {
+      "nummer": 32,
+      "name": "Wasser_32",
+      "pfad": "/Tiles/Newversion/water03_32.png",
+      "reibung": "1.0",
+      "collision": "true",
+      "ziel": "false"
+    },
+    {
+      "nummer": 33,
+      "name": "Wasser_33",
+      "pfad": "/Tiles/Newversion/water04_33.png",
+      "reibung": "1.0",
+      "collision": "true",
+      "ziel": "false"
+    },
+    {
+      "nummer": 34,
+      "name": "Wasser_34",
+      "pfad": "/Tiles/Newversion/water05_34.png",
+      "reibung": "1.0",
+      "collision": "true",
+      "ziel": "false"
+    },
+    {
+      "nummer": 35,
+      "name": "Wasser_35",
+      "pfad": "/Tiles/Newversion/water06_35.png",
+      "reibung": "1.0",
+      "collision": "true",
+      "ziel": "false"
+    },
+    {
+      "nummer": 36,
+      "name": "Wasser_36",
+      "pfad": "/Tiles/Newversion/water07_36.png",
+      "reibung": "1.0",
+      "collision": "true",
+      "ziel": "false"
+    },
+    {
+      "nummer": 37,
+      "name": "Wasser_37",
+      "pfad": "/Tiles/Newversion/water08_37.png",
+      "reibung": "1.0",
+      "collision": "true",
+      "ziel": "false"
+    },
+    {
+      "nummer": 38,
+      "name": "Wasser_38",
+      "pfad": "/Tiles/Newversion/water09_38.png",
+      "reibung": "1.0",
+      "collision": "true",
+      "ziel": "false"
+    },
+    {
+      "nummer": 39,
+      "name": "Wasser_39",
+      "pfad": "/Tiles/Newversion/water10_39.png",
+      "reibung": "1.0",
+      "collision": "true",
+      "ziel": "false"
+    },
+    {
+      "nummer": 40,
+      "name": "Wasser_40",
+      "pfad": "/Tiles/Newversion/water11_40.png",
+      "reibung": "1.0",
+      "collision": "true",
+      "ziel": "false"
+    },
+    {
+      "nummer": 41,
+      "name": "Wasser_41",
+      "pfad": "/Tiles/Newversion/water12_41.png",
+      "reibung": "1.0",
+      "collision": "true",
+      "ziel": "false"
+    },
+    {
+      "nummer": 42,
+      "name": "Wasser_42",
+      "pfad": "/Tiles/Newversion/water13_42.png",
+      "reibung": "1.0",
+      "collision": "true",
+      "ziel": "false"
+    },
+    {
+      "nummer": 45,
+      "name": "Ziel_45",
+      "pfad": "/Tiles/Newversion/Ziel00_45.png",
+      "reibung": "1.0",
+      "collision": "false",
+      "ziel": "true"
+    },
+    {
+      "nummer": 46,
+      "name": "Ziel_46",
+      "pfad": "/Tiles/Newversion/Ziel01_46.png",
+      "reibung": "1.0",
+      "collision": "false",
+      "ziel": "true"
+    },
+    {
+      "nummer": 47,
+      "name": "Ziel_47",
+      "pfad": "/Tiles/Newversion/Ziel02_47.png",
+      "reibung": "1.0",
+      "collision": "false",
+      "ziel": "true"
+    },
+    {
+      "nummer": 50,
+      "name": "Asphalt_50",
+      "pfad": "/Tiles/Newversion/asphalt00_50.png",
+      "reibung": "0.5",
+      "collision": "false",
+      "ziel": "false"
+    },
+    {
+      "nummer": 51,
+      "name": "Asphalt_51",
+      "pfad": "/Tiles/Newversion/asphalt01_51.png",
+      "reibung": "0.5",
+      "collision": "false",
+      "ziel": "false"
+    },
+    {
+      "nummer": 52,
+      "name": "Asphalt_52",
+      "pfad": "/Tiles/Newversion/asphalt02_52.png",
+      "reibung": "0.5",
+      "collision": "false",
+      "ziel": "false"
+    },
+    {
+      "nummer": 53,
+      "name": "Asphalt_53",
+      "pfad": "/Tiles/Newversion/asphalt03_53.png",
+      "reibung": "0.5",
+      "collision": "false",
+      "ziel": "false"
+    },
+    {
+      "nummer": 54,
+      "name": "Asphalt_54",
+      "pfad": "/Tiles/Newversion/asphalt04_54.png",
+      "reibung": "0.5",
+      "collision": "false",
+      "ziel": "false"
+    }
+  ]
+}

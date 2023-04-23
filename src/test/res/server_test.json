@@ -1,0 +1,5 @@
+{
+  "startCommand": "FILE_VAR",
+  "args": "server \"/Res/Config/ConfigWorld00.json\"",
+  "path": "./server/server"
+}
